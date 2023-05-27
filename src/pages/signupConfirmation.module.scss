@@ -1,0 +1,23 @@
+.signupcnf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      135deg,
+      rgba(128, 128, 128, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/books.jpeg");
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    min-width: 310px;
+    width: 400px;
+    max-width: 600px;
+    border-radius: 8px;
+    margin: 0px 5px;
+    position: relative;
+  }
